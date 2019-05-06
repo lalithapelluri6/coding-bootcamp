@@ -1,0 +1,41 @@
+<div>
+   <h1>Todos</h1>
+
+
+
+   <%# 
+      This chunk of code is similar to the work we do insie of curly braces with Handlebars or React. It generates HTML using the data that was assigned to the @todoData variable in the Todos controller's todoPage method.
+   a%>
+   <ul>
+      <% @todoData.each do |item| %>
+         <li><%= item.text %></li>
+      <% end %>
+   </ul>
+
+
+
+   <%# 
+      In React, it would look like this:
+      ==================================
+      <ul>
+         {todoData.map(item => (
+            <li>item.text</li>
+         ))}
+      </ul>
+      ==================================
+
+
+      In Handlebars, it would look something like this:
+      =================================================
+      <ul>
+         {{#each todoData}}
+            <li>{{this.text}}</li>
+         {{/each}}
+      </ul>
+      =================================================
+   %>
+
+
+   <hr>
+   <a href="/">Return home!</a>
+</div>

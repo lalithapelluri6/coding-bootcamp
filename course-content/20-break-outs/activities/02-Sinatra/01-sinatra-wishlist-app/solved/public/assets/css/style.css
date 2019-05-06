@@ -1,0 +1,9 @@
+div {
+   height: 90vh;
+   position: relative;
+}
+
+.footer {
+   position: absolute;
+   bottom: 0px;
+}

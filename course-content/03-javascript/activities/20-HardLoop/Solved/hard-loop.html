@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hard Loop</title>
+  </head>
+  <body>
+
+    <script>
+
+      // This is our starting myFarm array.
+      var myFarm = ["chickens", "pigs", "cows", "horses", "ostriches"];
+
+
+
+
+
+
+
+
+
+
+      
+
+      // Looping through our myFarm array.
+      for (var i = 0; i < myFarm.length; i++) {
+
+        // Console out the farm animal in the current index.
+        console.log(myFarm[i]);
+
+        // If the first character in the current animal is "c" or "o", alert the following message.
+        if (myFarm[i][0] === "c" || myFarm[i][0] === "o") {
+          alert(myFarm[i] + " starts with a c or an o!");
+        }
+
+        // if (myFarm[i].charAt(0) === "c" || myFarm[i].charAt(0) === "o") {
+        //   alert(myFarm[i] + " starts with a c or an o!");
+        // }
+
+      }
+
+    </script>
+    
+  </body>
+</html>

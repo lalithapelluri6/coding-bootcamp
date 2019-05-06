@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wishlist</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+</head>
+<body>
+
+   <div>   
+      <h1>Wishes</h1>
+      <hr>
+      <ul>
+         <% @wishData.each do |wish| %>
+            <li><%= wish.text %></li>
+         <% end %>
+      </ul>
+      
+   </div>
+
+   <!-- Client-Side JavaScript -->
+   <script src="/assets/javascript/index.js"></script>
+</body>
+</html>

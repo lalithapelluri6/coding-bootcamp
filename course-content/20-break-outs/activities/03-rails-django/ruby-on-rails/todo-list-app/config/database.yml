@@ -1,0 +1,26 @@
+default: &default
+  adapter: sqlite3
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+
+
+# Here's where we configure our database for development
+# ======================================================
+development:
+  adapter: mysql2
+  database: todo_db
+  host: localhost
+  username: root
+  password: password
+# ======================================================
+
+
+
+test:
+  <<: *default
+  database: db/test.sqlite3
+
+production:
+  <<: *default
+  database: db/production.sqlite3

@@ -1,0 +1,15 @@
+{
+  "name": "24-Inquirer_Intro",
+  "version": "1.0.0",
+  "description": "* [`basic.js`](basic.js)",
+  "main": "basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.2.2"
+  }
+}

@@ -1,0 +1,48 @@
+body {
+    /* Changing the font of the entire page */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Unique ID */
+#one {
+    width: 800px; /* setting the width */
+    background-color: lightgray; /* setting the background color */
+    margin: 0 auto ;
+
+    /* BONUS - adding padding and a rounded border */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: circle;
+}
+
+#paragraph-one {
+    color: darkcyan;
+    font-size: 20px;
+}
+
+.paragraph-two {
+    font-style: italic;
+    text-align: right;
+}
+
+/* BONUS - creating a class that centers content */
+.center {
+    width: 100%;
+    margin: 0 auto 0 auto;
+}

@@ -1,0 +1,36 @@
+/**
+ * Float Stylesheet
+ **/
+
+
+/* content1 starts the float and will rest at the top-left corner of its enclosing element */
+
+.content1 {
+  float: left;
+}
+
+/* content2 continues the left float; it will sit at the right side of content1 */
+.content2 {
+  float: left;
+}
+
+
+.copyright {
+	clear: both;
+}
+
+/*Alterntive "hack"*/
+/* clearfix is applied to the parent container to 'fix' the flow of the page */
+/* https://stackoverflow.com/questions/8554043/what-is-a-clearfix */
+/*Older browser do not support empty content */
+/*.clearfix::after {
+  content: "";   
+  display: block;
+  clear: both;
+}*/
+
+
+/*Note*/
+/*display none will not be available in the page and does not occupy any space. */ 
+/*visibility none hides an element, but it will still take up the same space as before. */
+
